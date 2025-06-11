@@ -1,3 +1,4 @@
+// router to check if api is live adn reachable
 const express = require("express");
 const router = express.Router();
 const prisma = require("../prisma/client.js");
