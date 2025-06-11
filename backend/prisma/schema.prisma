@@ -37,7 +37,6 @@ model Appointment {
   clientName String
   clientEmail String
   date DateTime
-  duration Int? @default(60)
   message String?
   status String? @default("pending")
   createdAt DateTime @default(now())
